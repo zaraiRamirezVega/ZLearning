@@ -1,9 +1,8 @@
-// File: 
 
-import * as entry from '../../../../../app/auth/login/page.js'
+import * as entry from '../../../../../app/categorias/[slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/auth/login/page.js')
+type TEntry = typeof import('../../../../../app/categorias/[slug]/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }
@@ -31,16 +30,16 @@ checkFields<Diff<{
 }, TEntry, ''>>()
 
 
-// Verificamos el tipo de propiedad de la función de entrada
+// Verifique el tipo de propiedad de la función de entrada
 checkFields<Diff<PageProps, FirstArg<TEntry['default']>, 'default'>>()
 
-// Verificamos los argumentos y el tipo de retorno de la función generateMetadata
+// Verifique los argumentos y el tipo de retorno de la función generateMetadata
 if ('generateMetadata' in entry) {
   checkFields<Diff<PageProps, FirstArg<MaybeField<TEntry, 'generateMetadata'>>, 'generateMetadata'>>()
   checkFields<Diff<ResolvingMetadata, SecondArg<MaybeField<TEntry, 'generateMetadata'>>, 'generateMetadata'>>()
 }
 
-// Verificamos los argumentos y el tipo de retorno de la función generateViewport
+// Verifique los argumentos y el tipo de retorno de la función generateViewport
 if ('generateViewport' in entry) {
   checkFields<Diff<PageProps, FirstArg<MaybeField<TEntry, 'generateViewport'>>, 'generateViewport'>>()
   checkFields<Diff<ResolvingViewport, SecondArg<MaybeField<TEntry, 'generateViewport'>>, 'generateViewport'>>()
