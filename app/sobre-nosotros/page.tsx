@@ -10,7 +10,7 @@ export default function SobreNosotrosPage() {
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Sobre Nosotros</h1>
         <p className="max-w-[700px] text-muted-foreground md:text-xl">
-          Conoce nuestra historia, misión y el equipo detrás de EduPastel
+          Conoce nuestra historia, misión y el equipo detrás de ZLearning 
         </p>
       </div>
 
@@ -21,7 +21,7 @@ export default function SobreNosotrosPage() {
             <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Nuestra Historia</h2>
             <div className="mt-4 space-y-4">
               <p>
-                EduPastel nació en 2018 con una visión clara: democratizar la educación de calidad y hacerla accesible
+                ZLearning  nació en 2018 con una visión clara: democratizar la educación de calidad y hacerla accesible
                 para todos, independientemente de su ubicación o situación económica.
               </p>
               <p>
@@ -93,7 +93,7 @@ export default function SobreNosotrosPage() {
 
         {/* Estadísticas */}
         <section className="rounded-lg bg-muted/50 p-8">
-          <h2 className="text-center text-2xl font-bold tracking-tight sm:text-3xl">EduPastel en Números</h2>
+          <h2 className="text-center text-2xl font-bold tracking-tight sm:text-3xl">ZLearning en Números</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-4">
             <div className="flex flex-col items-center gap-2 text-center">
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">

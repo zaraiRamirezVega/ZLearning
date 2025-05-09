@@ -9,7 +9,7 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "EduPastel - Plataforma de Aprendizaje",
+  title: "ZLearning - Plataforma de Aprendizaje",
   description: "Una plataforma moderna de enseñanza en línea",
     generator: 'v0.dev'
 }

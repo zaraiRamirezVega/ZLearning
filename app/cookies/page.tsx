@@ -160,8 +160,8 @@ export default function CookiesPage() {
             <div className="mt-4 space-y-4">
               <p>
                 Si tienes alguna pregunta sobre nuestra Política de Cookies, por favor contáctanos a través de{" "}
-                <a href="mailto:privacidad@edupastel.com" className="text-primary hover:underline">
-                  privacidad@edupastel.com
+                <a href="mailto:privacidad@ZLearning.com" className="text-primary hover:underline">
+                  privacidad@ZLearning .com
                 </a>
                 .
               </p>

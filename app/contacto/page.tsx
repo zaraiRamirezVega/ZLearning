@@ -161,7 +161,7 @@ export default function ContactoPage() {
                 <Phone className="mt-0.5 h-5 w-5 text-primary" />
                 <div>
                   <h3 className="font-medium">Teléfono</h3>
-                  <p className="text-sm text-muted-foreground">+34 912 345 678</p>
+                  <p className="text-sm text-muted-foreground">+51 912 345 678</p>
                   <p className="text-sm text-muted-foreground">Lunes a viernes: 9:00 - 18:00</p>
                 </div>
               </div>
@@ -170,7 +170,7 @@ export default function ContactoPage() {
                 <div>
                   <h3 className="font-medium">Dirección</h3>
                   <p className="text-sm text-muted-foreground">Calle Ejemplo 123</p>
-                  <p className="text-sm text-muted-foreground">28001 Madrid, España</p>
+                  <p className="text-sm text-muted-foreground">28001 Huanuco, Peru</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">

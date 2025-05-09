@@ -40,7 +40,7 @@ export default function RegisterPage() {
         <div className="flex flex-col items-center space-y-2 text-center">
           <Link href="/" className="flex items-center gap-2">
             <BookOpen className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold">EduPastel</span>
+            <span className="text-2xl font-bold">ZLearning</span>
           </Link>
           <h1 className="text-2xl font-semibold tracking-tight">Crea tu cuenta</h1>
           <p className="text-sm text-muted-foreground">Regístrate para acceder a miles de cursos</p>

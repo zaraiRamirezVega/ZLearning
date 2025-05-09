@@ -22,7 +22,7 @@ export default function ConvierteteEnInstructorPage() {
             <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Enseña lo que amas</h2>
             <div className="mt-4 space-y-4">
               <p>
-                EduPastel te brinda la oportunidad de compartir tus conocimientos y experiencia con millones de
+                ZLearning te brinda la oportunidad de compartir tus conocimientos y experiencia con millones de
                 estudiantes en todo el mundo. Ya sea que seas un experto en programación, diseño, marketing, música o
                 cualquier otra área, nuestra plataforma te proporciona las herramientas necesarias para crear cursos de
                 alta calidad y llegar a una audiencia global.
@@ -51,7 +51,7 @@ export default function ConvierteteEnInstructorPage() {
 
         {/* Benefits */}
         <section>
-          <h2 className="text-center text-2xl font-bold tracking-tight sm:text-3xl">¿Por qué enseñar en EduPastel?</h2>
+          <h2 className="text-center text-2xl font-bold tracking-tight sm:text-3xl">¿Por qué enseñar en ZLearning ?</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card>
               <CardContent className="flex flex-col items-center gap-4 p-6 text-center">
@@ -316,21 +316,21 @@ const testimonials = [
     role: "Instructor de Desarrollo Web",
     avatar: "/placeholder.svg?height=60&width=60",
     testimonial:
-      "Enseñar en EduPastel ha cambiado mi vida. He podido compartir mis conocimientos con estudiantes de todo el mundo y generar ingresos significativos. La plataforma es intuitiva y el equipo de soporte es excepcional.",
+      "Enseñar en ZLearning  ha cambiado mi vida. He podido compartir mis conocimientos con estudiantes de todo el mundo y generar ingresos significativos. La plataforma es intuitiva y el equipo de soporte es excepcional.",
   },
   {
     name: "Laura Martínez",
     role: "Instructora de Diseño UX/UI",
     avatar: "/placeholder.svg?height=60&width=60",
     testimonial:
-      "Lo que más me gusta de EduPastel es la libertad que tengo para crear mis cursos. Las herramientas son fáciles de usar y me permiten expresar mi creatividad. Además, la comunidad de estudiantes es increíblemente comprometida.",
+      "Lo que más me gusta de ZLearning  es la libertad que tengo para crear mis cursos. Las herramientas son fáciles de usar y me permiten expresar mi creatividad. Además, la comunidad de estudiantes es increíblemente comprometida.",
   },
   {
     name: "Miguel Ángel López",
     role: "Instructor de Marketing Digital",
     avatar: "/placeholder.svg?height=60&width=60",
     testimonial:
-      "Comencé a enseñar en EduPastel hace dos años y ha sido una experiencia transformadora. No solo he podido generar ingresos adicionales, sino que también he establecido mi marca personal como experto en marketing digital.",
+      "Comencé a enseñar en ZLearning  hace dos años y ha sido una experiencia transformadora. No solo he podido generar ingresos adicionales, sino que también he establecido mi marca personal como experto en marketing digital.",
   },
 ]
 

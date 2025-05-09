@@ -28,7 +28,7 @@ export function MainNav() {
         <div className="flex items-center gap-6 md:gap-8 lg:gap-10">
           <Link href="/" className="flex items-center space-x-2">
             <BookOpen className="h-6 w-6 text-primary" />
-            <span className="hidden font-bold sm:inline-block">EduPastel</span>
+            <span className="hidden font-bold sm:inline-block">ZLearning</span>
           </Link>
 
           <NavigationMenu className="hidden md:flex">

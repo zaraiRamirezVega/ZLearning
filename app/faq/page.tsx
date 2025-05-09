@@ -98,9 +98,9 @@ export default function FAQPage() {
 
 const generalFAQs = [
   {
-    question: "¿Qué es EduPastel?",
+    question: "¿Qué es ZLearning ?",
     answer:
-      "EduPastel es una plataforma de aprendizaje en línea que ofrece miles de cursos en diversas categorías. Nuestra misión es proporcionar educación de calidad accesible para todos, permitiendo a los estudiantes aprender a su propio ritmo y a los instructores compartir sus conocimientos con el mundo.",
+      "ZLearning  es una plataforma de aprendizaje en línea que ofrece miles de cursos en diversas categorías. Nuestra misión es proporcionar educación de calidad accesible para todos, permitiendo a los estudiantes aprender a su propio ritmo y a los instructores compartir sus conocimientos con el mundo.",
   },
   {
     question: "¿Cómo puedo crear una cuenta?",
@@ -108,14 +108,14 @@ const generalFAQs = [
       "Crear una cuenta es muy sencillo. Haz clic en el botón 'Registrarse' en la esquina superior derecha de la página. Puedes registrarte con tu correo electrónico o usar tus cuentas de Google o GitHub para un registro más rápido. Una vez registrado, podrás acceder a todos los cursos y funcionalidades de la plataforma.",
   },
   {
-    question: "¿Puedo acceder a EduPastel desde dispositivos móviles?",
+    question: "¿Puedo acceder a ZLearning  desde dispositivos móviles?",
     answer:
-      "Sí, EduPastel es completamente responsivo y se adapta a cualquier dispositivo. Puedes acceder a la plataforma desde tu computadora, tablet o smartphone. También contamos con aplicaciones móviles para iOS y Android que te permiten descargar cursos y verlos sin conexión.",
+      "Sí, ZLearning  es completamente responsivo y se adapta a cualquier dispositivo. Puedes acceder a la plataforma desde tu computadora, tablet o smartphone. También contamos con aplicaciones móviles para iOS y Android que te permiten descargar cursos y verlos sin conexión.",
   },
   {
     question: "¿Cómo puedo contactar con el soporte técnico?",
     answer:
-      "Puedes contactar con nuestro equipo de soporte técnico a través del formulario de contacto en nuestra página de Contacto, enviando un correo a soporte@edupastel.com, o utilizando el chat en vivo disponible en la esquina inferior derecha de la plataforma. Nuestro equipo está disponible 24/7 para ayudarte con cualquier problema o duda.",
+      "Puedes contactar con nuestro equipo de soporte técnico a través del formulario de contacto en nuestra página de Contacto, enviando un correo a soporte@ZLearning.com, o utilizando el chat en vivo disponible en la esquina inferior derecha de la plataforma. Nuestro equipo está disponible 24/7 para ayudarte con cualquier problema o duda.",
   },
   {
     question: "¿EduPastel ofrece descuentos para estudiantes o instituciones educativas?",
@@ -166,7 +166,7 @@ const pagosFAQs = [
   {
     question: "¿Ofrecen planes de suscripción?",
     answer:
-      "Sí, además de la compra individual de cursos, ofrecemos planes de suscripción mensual y anual que te dan acceso ilimitado a todos los cursos de la plataforma. Nuestros planes de suscripción incluyen EduPastel Basic, EduPastel Pro y EduPastel Enterprise, cada uno con diferentes beneficios y niveles de acceso.",
+      "Sí, además de la compra individual de cursos, ofrecemos planes de suscripción mensual y anual que te dan acceso ilimitado a todos los cursos de la plataforma. Nuestros planes de suscripción incluyen ZLearning  Basic, ZLearning  Pro y ZLearning  Enterprise, cada uno con diferentes beneficios y niveles de acceso.",
   },
   {
     question: "¿Cómo funciona el proceso de reembolso?",

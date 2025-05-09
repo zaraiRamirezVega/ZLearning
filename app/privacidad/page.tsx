@@ -122,8 +122,8 @@ export default function PrivacidadPage() {
               </ul>
               <p>
                 Para ejercer estos derechos, por favor contáctanos a través de{" "}
-                <a href="mailto:privacidad@edupastel.com" className="text-primary hover:underline">
-                  privacidad@edupastel.com
+                <a href="mailto:privacidad@ZLearning.com" className="text-primary hover:underline">
+                  privacidad@ZLearning.com
                 </a>
                 .
               </p>
@@ -190,7 +190,7 @@ export default function PrivacidadPage() {
             <div className="mt-4 space-y-4">
               <p>
                 Si tienes alguna pregunta sobre esta Política de Privacidad, por favor contáctanos a través de{" "}
-                <a href="mailto:privacidad@edupastel.com" className="text-primary hover:underline">
+                <a href="mailto:privacidad@ZLearning.com" className="text-primary hover:underline">
                   privacidad@edupastel.com
                 </a>
                 .

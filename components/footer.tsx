@@ -12,7 +12,7 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
               <BookOpen className="h-6 w-6 text-primary" />
-              <span className="font-bold">EduPastel</span>
+              <span className="font-bold">ZLearning</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Plataforma de aprendizaje en línea con miles de cursos para ayudarte a desarrollar nuevas habilidades y
@@ -155,7 +155,7 @@ export function Footer() {
 
       <div className="container py-6">
         <div className="flex flex-col items-center justify-between gap-4 text-center text-sm text-muted-foreground md:flex-row md:text-left">
-          <p>© 2024 EduPastel. Todos los derechos reservados.</p>
+          <p>© 2024 ZLearning . Todos los derechos reservados.</p>
           <div className="flex gap-4">
             <Link href="/terminos" className="hover:text-foreground">
               Términos de servicio

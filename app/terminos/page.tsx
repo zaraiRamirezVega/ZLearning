@@ -10,8 +10,8 @@ export default function TerminosPage() {
             <h2 className="text-xl font-semibold">1. Introducción</h2>
             <div className="mt-4 space-y-4">
               <p>
-                Bienvenido a EduPastel. Estos Términos de Servicio ("Términos") rigen tu acceso y uso de la plataforma
-                EduPastel, incluyendo nuestro sitio web, aplicaciones móviles, y todos los servicios relacionados
+                Bienvenido a ZLearning . Estos Términos de Servicio ("Términos") rigen tu acceso y uso de la plataforma
+                ZLearning , incluyendo nuestro sitio web, aplicaciones móviles, y todos los servicios relacionados
                 (colectivamente, la "Plataforma").
               </p>
               <p>
