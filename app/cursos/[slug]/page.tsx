@@ -396,22 +396,15 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <div className="mb-4 flex items-baseline gap-2">
                   <span className="text-3xl font-bold">{course.price}</span>
-                  <span className="text-lg text-muted-foreground line-through">
-                    {course.originalPrice}
-                  </span>
+                  <span className="text-lg text-muted-foreground line-through">{course.originalPrice}</span>
                   <Badge className="ml-2 bg-green-500 text-white">80% descuento</Badge>
                 </div>
                 <div className="mb-4 text-sm text-muted-foreground">
-                  <span className="font-medium">¡Oferta por tiempo limitado!</span> Termina en 2
-                  días
+                  <span className="font-medium">¡Oferta por tiempo limitado!</span> Termina en 2 días
                 </div>
                 <div className="space-y-4">
-                  <Button size="lg" className="w-full">
-                    Comprar ahora
-                  </Button>
-                  <Button variant="outline" size="lg" className="w-full">
-                    Añadir al carrito
-                  </Button>
+                  <Button size="lg" className="w-full">Comprar ahora</Button>
+                  <Button variant="outline" size="lg" className="w-full">Añadir al carrito</Button>
                 </div>
                 <div className="mt-6 text-center text-xs text-muted-foreground">
                   Garantía de devolución de 30 días
@@ -447,7 +440,7 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
           </div>
         </div>
       </div>
-
+  
       {/* Course Content */}
       <div className="container py-8 md:py-12">
         <div className="grid gap-8 md:grid-cols-3">
@@ -459,7 +452,8 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                 <TabsTrigger value="instructor">Instructor</TabsTrigger>
                 <TabsTrigger value="reviews">Reseñas</TabsTrigger>
               </TabsList>
-
+  
+              {/* Content Tab */}
               <TabsContent value="content" className="mt-0">
                 <div className="rounded-lg border">
                   <div className="flex items-center justify-between border-b bg-muted/50 p-4">
@@ -484,10 +478,7 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                         <AccordionContent className="px-0 pb-0 pt-0">
                           <div className="divide-y border-t">
                             {module.lessons.map((lesson, lessonIndex) => (
-                              <div
-                                key={lessonIndex}
-                                className="flex items-center justify-between p-4 hover:bg-muted/50"
-                              >
+                              <div key={lessonIndex} className="flex items-center justify-between p-4 hover:bg-muted/50">
                                 <div className="flex items-center gap-3">
                                   <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/10 text-primary">
                                     <Play className="h-4 w-4" />
@@ -514,7 +505,8 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                   </Accordion>
                 </div>
               </TabsContent>
-
+  
+              {/* Overview Tab */}
               <TabsContent value="overview" className="mt-0 space-y-6">
                 <div>
                   <h2 className="mb-4 text-xl font-semibold">Lo que aprenderás</h2>
@@ -527,7 +519,7 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                     ))}
                   </div>
                 </div>
-
+  
                 <div>
                   <h2 className="mb-4 text-xl font-semibold">Requisitos</h2>
                   <ul className="list-inside list-disc space-y-2">
@@ -536,25 +528,21 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
                     ))}
                   </ul>
                 </div>
-
+  
                 <div>
                   <h2 className="mb-4 text-xl font-semibold">Descripción</h2>
                   <div className="space-y-4">
                     <p>
-                      Este curso completo de desarrollo web te llevará desde los conceptos básicos
-                      hasta las técnicas avanzadas utilizadas por los desarrolladores profesionales.
-                      Aprenderás a crear sitios web responsivos, aplicaciones web interactivas y APIs
-                      robustas.
+                      Este curso completo de desarrollo web te llevará desde los conceptos básicos hasta las técnicas avanzadas utilizadas por los desarrolladores profesionales...
                     </p>
-                    <p>
-                      Comenzaremos con los fundamentos de HTML5 y CSS3, donde aprenderás a
-                      estructurar y estilizar páginas web. Luego, nos sumergiremos en JavaScript,
-                      donde aprenderás programación desde cero hasta un nivel avanzado, incluyendo
-                      ES6+ y conceptos de asincronía.
-                    </p>
-                    <p>
-                      En la segunda parte del curso, nos enfocaremos en React, una de las
-                      bibliotecas más populares para el desarrollo de interfaces de usuario.
-                    </p>
+                  </div>
+                </div>
+              </TabsContent>
+            </Tabs>
+          </div>
+        </div>
+      </div>
+    </div>
+    ) 
+  }
 
-\
